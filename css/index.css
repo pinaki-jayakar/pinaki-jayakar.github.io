@@ -1,0 +1,51 @@
+.rt2050pg {
+    color: aliceblue !important;
+    font-weight: bold;
+    background: linear-gradient( to right, rgba(116, 58, 213, 0.5) 0%, rgba(192, 134, 171, 0.55) 100%);
+    font-size: 3.8vw;
+    margin-top: 50px;
+}
+
+.blinkrt{
+    animation: blinking 1.2s infinite alternate;
+}
+
+.img-des {
+    background: black;
+    border-radius: 40%;
+    height: 4vw;
+    width: 9vw;
+    animation: blinking 1.2s infinite alternate;
+}
+
+@keyframes blinking {
+    0% {
+        opacity: 0;
+    }
+    /* 50% {
+        opacity: 0.6;
+    } */
+    100% {
+        opacity: 1;
+    }
+}
+
+.whatsnew {
+    font-size: 15px !important;
+    background-color: red;
+    border-radius: 10px;
+    animation: blinking 2s infinite;
+}
+
+.modal{
+    animation: modal_show 1s;
+}
+
+@keyframes modal_show {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

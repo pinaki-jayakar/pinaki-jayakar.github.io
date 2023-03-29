@@ -1,0 +1,741 @@
+body {
+  text-align: center;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 769px){
+  .bgnav{
+    background-color:#000 !important;
+  } 
+}
+
+@media only screen and (max-width: 769px){
+  li > a{
+    color:#ffffff80 !important;
+    font-size: 16px;
+    font-weight:400;
+  } 
+}
+
+h1 {
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#celright {
+  position: absolute;
+  right: 50%;
+  top: 650px;
+  opacity: 0;
+  animation: celebrations1 2.5s;
+
+}
+#celleft {
+  position: absolute;
+  top: 650px;
+  left: 50%;
+  opacity: 0;
+  animation: celebrations 2.5s;
+}
+#ballons {
+  position: absolute;
+  top: 650px;
+  left: 45%;
+  opacity: 0;
+  animation: balloncelebrations 2.5s;
+}
+
+@keyframes balloncelebrations{
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-250px);
+    opacity: 0;
+  }
+}
+
+@keyframes celebrations{
+  0% {
+    transform: translate3d(0px,0px,0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate3d(-500px,-125px,0);
+    opacity: 0;
+  }
+}
+
+@keyframes celebrations1{
+  0% {
+    transform: translate3d(0px,0px,0);
+    opacity: 1;
+
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate3d(500px,-125px,0);
+    opacity: 0;
+
+  }
+}
+
+/* Winners */
+
+.wrapnew > h2 {
+  width: 100%;
+}
+
+#clockdiv3 {
+  font-family: "Work Sans", "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  border-radius: 25px;
+  box-shadow: 0 0 3px gray;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+#clockdiv3 > div {
+  padding: 5px;
+  height: auto;
+  box-shadow: 0 0 8px rgb(100, 100, 128);
+  border-radius: 10px;
+  /* background: #ff4e4e; */
+  margin: 10px 10px 10px 10px;
+}
+
+.wrapnew {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  /* background-color: #fdfcfc; */
+  /* box-shadow: 0 0 3px gray; */
+  padding-bottom: 25px;
+  overflow: visible;
+  margin-top: 25px;
+}
+/* h2 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  } */
+
+#clockdiv3 div > span {
+  height: auto;
+  padding: 25px;
+  border-radius: 1px;
+  display: inline-block;
+}
+
+.smalltext {
+  /* padding-top: 5px; */
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+
+
+/* Phase 1 */
+
+
+
+.wrap > h2 {
+  width: 100%;
+}
+
+#clockdiv {
+  font-family: "Work Sans", "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  border-radius: 25px;
+  box-shadow: 0 0 3px gray;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+#clockdiv > div {
+  padding: 5px;
+  height: fit-content;
+  box-shadow: 0 0 8px rgb(100, 100, 128);
+  border-radius: 10px;
+  /* background: #ff4e4e; */
+  margin: 5px 5px 5px 5px;
+  opacity: 0.5;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* background-color: #fdfcfc; */
+  /* box-shadow: 0 0 3px gray; */
+  padding-bottom: 10px;
+  overflow: visible;
+  margin-top: 25px;
+}
+/* h2 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  } */
+
+#clockdiv div > span {
+  height: auto;
+  padding: 25px;
+  border-radius: 1px;
+  display: inline-block;
+}
+
+.smalltext {
+  /* padding-top: 5px; */
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* phase 2 */
+
+.wrapp2 > h2 {
+  width: 100%;
+}
+
+#clockdivp2 {
+  font-family: "Work Sans", "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  border-radius: 25px;
+  box-shadow: 0 0 3px gray;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+#clockdivp2 > div {
+  padding: 5px;
+  height: auto;
+  box-shadow: 0 0 8px rgb(100, 100, 128);
+  border-radius: 10px;
+  /* background: #ff4e4e; */
+  margin: 5px 5px 5px 5px;
+  opacity: 0.5;
+}
+
+.wrapp2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* background-color: #fdfcfc; */
+  /* box-shadow: 0 0 3px gray; */
+  padding-bottom: 25px;
+  overflow: visible;
+  margin-top: 25px;
+}
+/* h2 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  } */
+
+#clockdivp2 div > span {
+  height: auto;
+  padding: 25px;
+  border-radius: 1px;
+  display: inline-block;
+}
+
+.smalltext {
+  /* padding-top: 5px; */
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* phase 2 end */
+
+
+.column {
+  background-color: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 3px gray;
+  /* border: 1px black solid; */
+  /* height: 785px; */
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+  margin-top: 35px;
+}
+
+.card {
+  --box-shadow_color: #b1e0fcf5;
+  box-shadow: 0 0 8px var(--box-shadow_color);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 25px;
+  width: 350px;
+  height: 350px;
+  justify-content: center;
+  /* background-color: #fff; */
+}
+
+.card:hover {
+  --box-shadow_color: #0d3247f5;
+  box-shadow: 0 0 10px var(--box-shadow_color);
+}
+
+.img-svg {
+  /* border: 1px green solid; */
+  height: 225px;
+  margin: 5px auto;
+  margin-bottom: 2px;
+  ba
+}
+
+.card > h3 {
+  margin: 0 auto;
+}
+
+.card:hover > h3 {
+  font-weight: 501;
+}
+
+.card > p {
+  margin: 0 40px auto;
+  /* height: 50px; */
+}
+
+#brain path {
+  fill: rgb(160, 151, 151);
+}
+#neurals_right path {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 4px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 4000;
+  visibility: hidden;
+}
+#neurals_left path {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 4px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 4000;
+  visibility: hidden;
+}
+.chip:hover #neurals_left path {
+  visibility: visible;
+  animation: neurals_draw 3s ease-in;
+}
+.chip:hover #neurals_right path {
+  visibility: visible;
+  animation: neurals_draw 3s ease-in;
+}
+.chip:hover #brain path {
+  fill: #000;
+}
+@keyframes neurals_draw {
+  0% {
+    stroke-dashoffset: 4000;
+    fill: none;
+  }
+  50% {
+    stroke-dashoffset: 2000;
+    fill: rgb(160, 151, 151);
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #000;
+  }
+}
+
+#sun_car {
+  visibility: hidden;
+}
+#Solar-Sun {
+  visibility: hidden;
+}
+#solar_car_2 path {
+  fill: rgb(184, 184, 184);
+  stroke: #000;
+  stroke-width: 4px;
+}
+#solar_car_2 #Vector_3 {
+  fill: #000;
+}
+#solar_car_2 #Vector_7 {
+  fill: rgb(255, 255, 255);
+}
+#solar_car_2 #Vector_13 {
+  fill: rgb(255, 255, 255);
+}
+#solar_car_2 #Vector_5 {
+  fill: #000;
+}
+#Solar_Panel path {
+  fill: rgb(192, 187, 187);
+  stroke: #000;
+  stroke-width: 4px;
+}
+#Solar_Panel #Vector_43 {
+  fill: rgb(89, 103, 148);
+}
+#Battery path {
+  fill: rgb(172, 180, 102);
+  stroke: #000;
+  stroke-width: 4px;
+}
+
+.solar:hover #solar_car_2 path {
+  fill: #afe645;
+}
+.solar:hover #sun_car {
+  visibility: visible;
+  animation: sunrise 2s infinite alternate;
+  transform-origin: bottom;
+}
+.solar:hover #Solar-Sun {
+  visibility: visible;
+  transform-origin: bottom;
+  animation: sunrise 2s infinite alternate;
+}
+@keyframes sunrise {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+.solar:hover #Battery path {
+  fill: #fdd82e;
+}
+.solar:hover #Solar_Panel #Vector_36 {
+  fill: #ff9800;
+}
+.solar:hover #Solar_Panel #Vector_42 {
+  fill: #0e8bce;
+}
+.solar:hover #Solar_Panel #Vector_43 {
+  fill: #3ba9fd;
+}
+.solar:hover #Solar_Panel #Vector_44 {
+  fill: #eaeaf0;
+}
+.solar:hover #Solar_Panel #Vector_45 {
+  fill: #eaeaf0;
+}
+
+.traffic:hover #traffic-jam path {
+  filter: brightness(1.25);
+}
+
+#Wifi_sign path {
+  visibility: hidden;
+}
+#Elex #Shape_9 {
+  visibility: hidden;
+}
+
+.charging_wireless:hover #Wifi_sign path {
+  visibility: visible;
+}
+.charging_wireless:hover  #Elex #Shape_9 {
+  visibility: visible;
+}
+.charging_wireless:hover  #Car #Shape_8 {
+  fill: #fff;
+}
+.charging_wireless:hover  #Car #Shape_7 {
+  fill: #fff;
+}
+
+#path_lines path {
+  visibility: hidden;
+}
+.aero:hover #path_lines path {
+  visibility: visible;
+  animation: lines 2s infinite alternate;
+}
+@keyframes lines {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0.95);
+  }
+}
+.aero:hover #car path {
+  animation: drive 2s infinite alternate;
+  transform-origin: center;
+}
+@keyframes drive {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0.5);
+  }
+}
+
+#hand1 path {
+  visibility: hidden;
+}
+#lighting path {
+  visibility: hidden;
+}
+.energy-share:hover #hand1 path {
+  visibility: visible;
+  animation: donate 1s infinite alternate;
+}
+.energy-share:hover #lighting path {
+  visibility: visible;
+  animation: donate 1s infinite alternate;
+}
+@keyframes donate {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(25px);
+  }
+}
+
+.vortex:hover #vortex path{
+  animation: shock 1s infinite alternate;
+  transform-origin: center;
+}
+@keyframes shock{
+  0%{
+    transform:translatex(0)
+  }
+  100%{
+    transform:translatex(8px)
+  }
+}
+
+#smallline {
+  visibility: hidden;
+}#bigline {
+  visibility: hidden;
+}
+.smartai:hover #smart_ai{
+  animation: car_in 2s ease-in-out;
+}
+
+.smartai:hover #smallline{
+  visibility: visible;
+  animation: drawin 5s ease-in;
+}
+.smartai:hover #bigline{
+  animation: drawin 5s ease-in;
+  visibility: visible;
+}
+
+@keyframes drawin{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: ;
+  }
+}
+
+@keyframes car_in{
+  0% {
+    transform:translateX(500px);
+  }100% {
+    transform:translateX(0);
+  }
+}
+
+.maglev:hover #train{
+  animation: train 1s infinite linear;
+}
+
+
+@keyframes train{
+  0% {
+    transform:translateX(-500px)
+  }
+  100% {
+    transform:translateX(500px)
+  }
+}
+
+/* timeline css  */
+
+.main {
+  /* border: 1px solid black; */
+  box-shadow: 0 0 3px gray;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-top:25px;
+  height: 500px;
+  display: flex;
+  background-color: #fafafa;
+  overflow: hidden;
+  /* justify-content: center; */
+}
+.main > svg {
+  position: relative;
+  display: block;
+} 
+
+
+
+#info {
+  margin: auto;
+  /* margin-left: 10px; */
+  margin-right: 50px;
+  border: 2px solid rgb(53, 60, 97);
+  width: 500px;
+  height: fit-content;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: aliceblue;
+  box-shadow: 0 0 8px rgb(81, 120, 146);
+  visibility: hidden;
+  /* transform-origin: center;/ */
+}
+
+@keyframes trial {
+  from{
+transform: translateY(0);
+  }
+  to {
+    transform: translateY(-55px);
+  }
+}
+
+#Vector_2_6 {
+  visibility: hidden;
+}
+#Vector_2_2 {
+  visibility: hidden;
+}
+#Vector_2_10 {
+  visibility: hidden;
+}
+#Vector_2_7 {
+  visibility: hidden;
+}
+#Vector_2_4 {
+  visibility: hidden;
+}
+#Vector_2_5 {
+  visibility: hidden;
+}
+#Vector_2_11 {
+  visibility: hidden;
+}
+#Vector_2_8 {
+  visibility: hidden;
+}
+#Vector_2_3 {
+  visibility: hidden;
+}
+#Vector_2_12 {
+  visibility: hidden;
+}
+#Vector_2_9 {
+  visibility: hidden;
+}
+#green1:hover > #Vector_2_9 {
+  visibility: visible;
+}
+#green4:hover > #Vector_2_12 {
+  visibility: visible;
+}
+#green3:hover > #Vector_2_11 {
+  visibility: visible;
+}
+#green2:hover > #Vector_2_10 {
+  visibility: visible;
+}
+#red1:hover > #Vector_2_6 {
+  visibility: visible;
+}
+#red2:hover > #Vector_2_7 {
+  visibility: visible;
+}
+#red3:hover > #Vector_2_8 {
+  visibility: visible;
+}
+#blue1:hover > #Vector_2_2 {
+  visibility: visible;
+}
+#blue2:hover > #Vector_2_3 {
+  visibility: visible;
+}
+#blue3:hover > #Vector_2_4 {
+  visibility: visible;
+}
+#blue4:hover > #Vector_2_5 {
+  visibility: visible;
+}
+
+.date {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.data {
+  font-weight: 600;
+  font-size: large;
+}
+
+.infohr {
+  height: 2px;
+  background-color: black;
+  box-shadow: 0 0 3px gray;
+}
+
+.start{
+  position:absolute; 
+  margin-top: 370px; 
+  margin-left: 75px;
+  animation: blinking 0.9s infinite alternate;
+}
+
+.end{
+  position:absolute; 
+  margin-top: 0px; 
+  margin-left: 550px;
+  animation: blinking 0.9s infinite alternate;
+}
+@keyframes blinking {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.instructions{
+  position:absolute; 
+  margin-top: 425px; 
+  margin-left: 155px;
+}

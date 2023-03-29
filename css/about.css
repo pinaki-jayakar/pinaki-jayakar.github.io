@@ -1,0 +1,18 @@
+.profile{
+    width: 70% !important;
+    height: 65%;
+    border-radius: 5% !important;
+    border: black 1px solid;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.role{
+    margin-bottom: 10px !important;
+}
+
+.card{ 
+    border-radius: 5px;
+    padding: 5px !important;   
+}

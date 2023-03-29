@@ -1,0 +1,31 @@
+.font {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 2rem;
+}
+
+.divider {
+    display: inline-block;
+    color:  #1d1d1d;
+    margin: 0 0.4rem;
+}
+
+.info {
+    font-size: 1rem;
+    color:  #353657;
+}
+
+button {
+    border-width: 0.025rem;
+    background: #f0eeee;
+}
+
+button:hover{
+    background: #212529;
+    color: white;
+
+}
+
+.content {
+    font-size: 1.25rem;
+}
